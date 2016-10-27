@@ -18,23 +18,23 @@ namespace Vsite.CSharp
 
         public static void IspišiIzvedenuIzJavne()
         {
-            // TODO: Definiciju klase IzvedenaIzJavneBazne promijenite tako da je ona izvedena iz klase JavnaBazna.
-            // TODO: Otkomentirajte drugu naredbu, prevedite kod i provjerite radi li poziv ispravno.
+            // Definiciju klase IzvedenaIzJavneBazne promijenite tako da je ona izvedena iz klase JavnaBazna.
+            // Otkomentirajte drugu naredbu, prevedite kod i provjerite radi li poziv ispravno.
             IzvedenaIzJavneBazne izvedenaIzJavne = new IzvedenaIzJavneBazne();
-            //izvedenaIzJavne.IspišiMe();
+            izvedenaIzJavne.IspišiMe();
         }
 
         public static void IspišiIzvedenuIzBazne()
         {
-            // TODO: Definiciju klase IzvedenaIzBazne promijenite tako da je ona izvedena iz klase Bazna. Prevedite kod i popravite pogreške koje prevoditelj prijavljuje.
-            // TODO: Otkomentirajte drugu naredbu, prevedite kod i provjerite radi li poziv ispravno.
+            //  Definiciju klase IzvedenaIzBazne promijenite tako da je ona izvedena iz klase Bazna. Prevedite kod i popravite pogreške koje prevoditelj prijavljuje.
+            //  Otkomentirajte drugu naredbu, prevedite kod i provjerite radi li poziv ispravno.
             IzvedenaIzBazne izvedenaIzBazne = new IzvedenaIzBazne();
-            //izvedenaIzBazne.IspišiMe();
+            izvedenaIzBazne.IspišiMe();
         }
 
         public static void IspišiIzvedenuIzInterneBazne()
         {
-            // TODO: U klasi IzvedenaIzInterneBazneLokalne treba na neki način omogućiti poziv metode IspišiMe iz klase InternaBazna ali bez promjene koda klase InternaBazna!
+            //  U klasi IzvedenaIzInterneBazneLokalne treba na neki način omogućiti poziv metode IspišiMe iz klase InternaBazna ali bez promjene koda klase InternaBazna!
             IzvedenaIzInterneBazne izvedenaIzInterne = new IzvedenaIzInterneBazne();
             izvedenaIzInterne.IspišiMe();
         }
