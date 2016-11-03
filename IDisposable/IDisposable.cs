@@ -9,12 +9,12 @@ namespace Vsite.CSharp
         {
             StreamWriter sw = new StreamWriter(imeDatoteke);
             sw.WriteLine("Ovo je moj upis");
-            // TODO: Pokrenuti program i pogledati ispis.
+            //  Pokrenuti program i pogledati ispis.
 
-            // TODO: Dodati poziv metode StreamWriter.Dispose (ili StreamWriter.Close) te ponovno pokrenuti program.
-
-            // TODO: Preraditi kod metode tako da se umjesto metode Dispose koristi blok using
-
+            //  Dodati poziv metode StreamWriter.Dispose (ili StreamWriter.Close) te ponovno pokrenuti program.
+            // sw.Dispose();
+            //  Preraditi kod metode tako da se umjesto metode Dispose koristi blok using
+            sw.Close();
         }
 
         public static void BrisanjeDatoteke(string imeDatoteke)
