@@ -18,8 +18,8 @@ namespace Vsite.CSharp
         //  Dodati destruktor (tj. finalizirajuću metodu) i njemu napisati naredbe koje će u konzolu i u Output prozor ispisati: "Destruktor objekta br. {RedniBroj}."
         ~KlasaSDestruktorom()
         {
-            Console.WriteLine($"Destruktor objekta br. {RedniBroj}.");
-            Debug.WriteLine($"Destruktor objekta br. { RedniBroj}.");
+            Console.WriteLine($"Destruktor objekta br. {RedniBroj}");
+            Debug.WriteLine($"Destruktor objekta br. { RedniBroj}");
         }
             
 
